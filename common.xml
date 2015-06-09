@@ -9,6 +9,6 @@
     <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>
     <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
     <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
-
+    <project name="CyanogenMod/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="cm-12.1"/>
 </manifest>
 
