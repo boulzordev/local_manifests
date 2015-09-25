@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="github"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.org" />
+
     <!-- Add new exfat support for fuse -->
     <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
     <!-- Add new fuse -->
     <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>
+    <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.1"/>
+    <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" revision="master"/>
 </manifest>
 
