@@ -10,5 +10,6 @@
     <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>
     <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.1"/>
     <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" revision="master"/>
+    <project path="external/gemmlowp" name="platform/external/gemmlowp" revision="master"/>
 </manifest>
 
