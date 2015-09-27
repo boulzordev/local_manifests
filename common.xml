@@ -8,13 +8,25 @@
     <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
     <!-- Add new fuse -->
     <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>
-    <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.1"/>
+    <project path="device/qcom/sepolicy" name="boulzordev/android_device_qcom_sepolicy" remote="github" revision="aosp-6.0"/>
     <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" revision="master"/>
-    <project path="external/gemmlowp" name="platform/external/gemmlowp" revision="master"/>
+    <project path="external/gemmlowp" name="boulzordev/android_external_gemmlowp" remote="github" revision="aosp-6.0"/>
     <remove-project name="platform/external/sepolicy"/>
     <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="master"/>
     <remove-project name="platform/external/selinux"/>
     <project path="external/selinux" name="platform/external/selinux" groups="pdk" revision="master"/>
-
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1"/>
+    <remove-project name="platform/build"/>
+    <project path="build" name="boulzordev/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-6.0">
+      <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+    <project path="external/libchrome" name="platform/external/libchrome" revision="master"/>
+    <project path="external/gmock" name="platform/external/gmock" revision="master"/>
+    <project path="external/libevent" name="platform/external/libevent" revision="master"/>
+    <project path="external/modp_b64" name="platform/external/modp_b64" revision="master"/>
+    <!-- Init needs to be updated for the loading of the gz firmwares -->
+    <remove-project name="platform/system/core"/>
+    <project path="system/core" name="boulzordev/android_system_core" remote="github" revision="aosp-6.0"/>
+    <remove-project name="platform/hardware/libhardware"/>
+    <project path="hardware/libhardware" name="boulzordev/android_hardware_libhardware" remote="github" revision="aosp-6.0"/>
 </manifest>
-
