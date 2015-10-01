@@ -39,4 +39,6 @@
     <project path="hardware/qcom/display" name="boulzordev/android_hardware_qcom_display" remote="github" revision="aosp-6.0"/>
     <remove-project path="hardware/qcom/audio"/>
     <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-12.1"/>
+    <remove-project name="platform/external/boringssl"/>
+    <project path="external/openssl" name="platform/external/openssl" revision="refs/tags/android-m-preview"/>
 </manifest>
