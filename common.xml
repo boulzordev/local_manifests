@@ -31,4 +31,12 @@
     <project path="hardware/libhardware" name="boulzordev/android_hardware_libhardware" remote="github" revision="aosp-6.0"/>
     <remove-project name="platform/external/e2fsprogs"/>
     <project path="external/e2fsprogs" name="boulzordev/android_external_e2fsprogs" remote="github" revision="aosp-6.0"/>
+    <remove-project name="platform/frameworks/native"/>
+    <project path="frameworks/native" name="boulzordev/android_frameworks_native" remote="github" revision="aosp-6.0"/>
+    <remove-project name="platform/hardware/qcom/media"/>
+    <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-12.1"/>
+    <remove-project name="platform/hardware/qcom/display"/>
+    <project path="hardware/qcom/display" name="boulzordev/android_hardware_qcom_display" remote="github" revision="aosp-6.0"/>
+    <remove-project path="hardware/qcom/audio"/>
+    <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-12.1"/>
 </manifest>
