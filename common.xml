@@ -37,8 +37,10 @@
     <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-12.1"/>
     <remove-project name="platform/hardware/qcom/display"/>
     <project path="hardware/qcom/display" name="boulzordev/android_hardware_qcom_display" remote="github" revision="aosp-6.0"/>
-    <remove-project path="hardware/qcom/audio"/>
+    <remove-project name="platform/hardware/qcom/audio"/>
     <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-12.1"/>
-    <remove-project name="platform/external/boringssl"/>
-    <project path="external/openssl" name="platform/external/openssl" revision="refs/tags/android-m-preview"/>
+    <remove-project name="platform/frameworks/av"/>
+    <project path="frameworks/av" name="boulzordev/android_frameworks_av" remote="github" revision="aosp-6.0"/>
+    <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1"/>
+    <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1"/>
 </manifest>
