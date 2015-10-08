@@ -43,4 +43,8 @@
     <project path="frameworks/av" name="boulzordev/android_frameworks_av" remote="github" revision="aosp-6.0"/>
     <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1"/>
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1"/>
+    <remove-project name="platform/external/boringssl"/>
+    <project path="external/boringssl" name="boulzordev/android_external_boringssl" remote="github" revision="aosp-6.0"/>
+    <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-12.1" />
+    <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-12.1" />
 </manifest>
