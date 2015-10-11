@@ -5,6 +5,6 @@
     <!-- Add new fuse -->
     <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>
     <project path="device/qcom/sepolicy" name="boulzordev/android_device_qcom_sepolicy" remote="github" revision="aosp-6.0"/>
-    <project path="device/qcom/common" name="MinimalOS-AOSP/android_device_qcom_common" remote="github" revision="mm-6.0"/>
+    <project path="device/qcom/common" name="MinimalOS-AOSP/platform_device_qcom_common" remote="github" revision="mm-6.0"/>
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1"/>
 </manifest>
