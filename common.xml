@@ -2,7 +2,8 @@
 <manifest>
   <remote  name="github"
            fetch="https://github.com/"
-           review="review.cyanogenmod.org" />
+           revision="aosp-6.0"
+	   />
 
     <!-- Add new exfat support for fuse -->
     <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
@@ -15,7 +16,7 @@
     <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="master"/>
     <remove-project name="platform/external/selinux"/>
     <project path="external/selinux" name="platform/external/selinux" groups="pdk" revision="master"/>
-    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1"/>
+    <project path="device/qcom/common" name="boulzordev/android_device_qcom_common" remote="github" revision="aosp-6.0"/>
     <remove-project name="platform/build"/>
     <project path="build" name="boulzordev/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-6.0">
       <copyfile src="core/root.mk" dest="Makefile" />
@@ -45,6 +46,6 @@
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1"/>
     <remove-project name="platform/external/boringssl"/>
     <project path="external/boringssl" name="boulzordev/android_external_boringssl" remote="github" revision="aosp-6.0"/>
-    <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-12.1" />
-    <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-12.1" />
+    <remove-project name="platform/system/media"/>
+    <project path="system/media" name="boulzordev/android_system_media" remote="github" revision="aosp-6.0"/>
 </manifest>
