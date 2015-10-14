@@ -17,10 +17,6 @@
     <project path="build" name="boulzordev/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-6.0">
       <copyfile src="core/root.mk" dest="Makefile" />
     </project>
-    <project path="external/libchrome" name="platform/external/libchrome" revision="master"/>
-    <project path="external/gmock" name="platform/external/gmock" revision="master"/>
-    <project path="external/libevent" name="platform/external/libevent" revision="master"/>
-    <project path="external/modp_b64" name="platform/external/modp_b64" revision="master"/>
     <!-- Init needs to be updated for the loading of the gz firmwares -->
     <remove-project name="platform/system/core"/>
     <project path="system/core" name="boulzordev/android_system_core" remote="github" revision="aosp-6.0"/>
