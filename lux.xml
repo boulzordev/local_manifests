@@ -1,0 +1,12 @@
+<manifest>
+
+  <!-- Motorola MSM8916 -->
+  <project name="boulzordev/android_device_motorola_lux" path="device/motorola/lux" remote="github" revision="aosp-5.1" />
+  <project name="boulzordev/android_vendor_motorola_lux" path="vendor/motorola/lux" remote="github" revision="cm-12.1" />
+  
+  <!-- Generic MSM8916
+  <project name="boulzordev/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="github" revision="aosp-6.0-msm8916" />
+  <project name="boulzordev/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="github" revision="aosp-6.0-msm8916" />
+  <project name="boulzordev/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="github" revision="aosp-6.0-msm8916" />
+  -->
+</manifest>
