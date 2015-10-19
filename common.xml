@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="github"
            fetch="https://github.com/"
-           revision="aosp-6.0"
+           revision="caf-6.0"
 	   />
 
     <!-- Add new exfat support for fuse -->
@@ -13,18 +13,18 @@
     <remove-project name="platform/external/selinux"/>
     <project path="external/selinux" name="boulzordev/android_external_selinux" remote="github" revision="caf-6.0"/>
     <remove-project name="platform/build"/>
-    <project path="build" name="boulzordev/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-6.0">
+    <project path="build" name="boulzordev/platform_build" groups="pdk,tradefed" remote="github">
       <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <!-- Init needs to be updated for the loading of the gz firmwares -->
     <remove-project name="platform/system/core"/>
-    <project path="system/core" name="boulzordev/android_system_core" remote="github" revision="aosp-6.0"/>
+    <project path="system/core" name="boulzordev/android_system_core" remote="github"/>
     <remove-project name="platform/hardware/libhardware"/>
-    <project path="hardware/libhardware" name="boulzordev/android_hardware_libhardware" remote="github" revision="aosp-6.0"/>
+    <project path="hardware/libhardware" name="boulzordev/android_hardware_libhardware" remote="github"/>
     <remove-project name="platform/external/e2fsprogs"/>
     <project path="external/e2fsprogs" name="boulzordev/android_external_e2fsprogs" remote="github" revision="aosp-6.0"/>
     <remove-project name="platform/frameworks/native"/>
-    <project path="frameworks/native" name="boulzordev/android_frameworks_native" remote="github" revision="aosp-6.0"/>
+    <project path="frameworks/native" name="boulzordev/android_frameworks_native" remote="github"/>
     <remove-project name="platform/hardware/qcom/media"/>
     <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-12.1"/>
     <remove-project name="platform/hardware/qcom/display"/>
@@ -32,11 +32,35 @@
     <remove-project name="platform/hardware/qcom/audio"/>
     <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-12.1"/>
     <remove-project name="platform/frameworks/av"/>
-    <project path="frameworks/av" name="boulzordev/android_frameworks_av" remote="github" revision="aosp-6.0"/>
+    <project path="frameworks/av" name="boulzordev/android_frameworks_av" remote="github"/>
     <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1"/>
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1"/>
     <remove-project name="platform/external/boringssl"/>
     <project path="external/boringssl" name="boulzordev/android_external_boringssl" remote="github" revision="aosp-6.0"/>
     <remove-project name="platform/system/media"/>
-    <project path="system/media" name="boulzordev/android_system_media" remote="github" revision="aosp-6.0"/>
+    <project path="system/media" name="boulzordev/android_system_media" remote="github"/>
+    <remove-project name="kernel/msm-3.10"/>
+    <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
+    <remove-project name="platform/art"/>
+    <project path="art" name="boulzordev/android_art" remote="github"/>
+    <remove-project name="platform/external/mm-dash"/>
+    <project path="external/mm-dash" name="boulzordev/android_external_mm-dash" remote="github"/>
+    <remove-project name="platform/external/skia"/>
+    <project path="external/skia" name="boulzordev/android_external_skia" remote="github"/>
+    <remove-project name="platform/frameworks/base"/>
+    <project path="frameworks/base" name="boulzordev/android_frameworks_base" remote="github"/>
+    <remove-project name="platform/hardware/qcom/bt"/>
+    <project path="hardware/qcom/bt" name="boulzordev/android_hardware_qcom_bt" remote="github"/>
+    <remove-project name="platform/hardware/qcom/camera"/>
+    <project path="hardware/qcom/camera" name="boulzordev/android_hardware_qcom_camera" remote="github"/>
+    <remove-project name="platform/vendor/qcom-opensource/display-frameworks"/>
+    <project path="vendor/qcom/opensource/display-frameworks" name="boulzordev/android_vendor_qcom_opensource_display-frameworks" remote="github"/>
+    <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
+    <project path="vendor/qcom/opensource/wlan/prima" name="boulzordev/android_vendor_qcom_opensource_wlan_prima" remote="github"/>
+    <remove-project name="platform/external/okhttp"/>
+    <project path="external/okhttp" name="boulzordev/android_external_okhttp" remote="github"/>
+    <remove-project name="platform/external/apache-http"/>
+    <project path="external/apache-http" name="boulzordev/android_external_apache-http" remote="github"/>
+    <remove-project name="platform/system/qcom"/>
+    <project path="vendor/qcom/opensource/softap" name="boulzordev/android_qcom_opensource_softap" remote="github"/>
 </manifest>
