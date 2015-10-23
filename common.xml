@@ -63,4 +63,7 @@
     <project path="external/apache-http" name="boulzordev/android_external_apache-http" remote="github"/>
     <remove-project name="platform/system/qcom"/>
     <project path="vendor/qcom/opensource/softap" name="boulzordev/android_qcom_opensource_softap" remote="github"/>
+    <remove-project name="platform/device/qcom/sepolicy"/>
+    <project path="device/qcom/sepolicy" name="boulzordev/android_device_qcom_sepolicy" remote="github"/>
+    <remove
 </manifest>
