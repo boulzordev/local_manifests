@@ -22,7 +22,7 @@
     <remove-project name="platform/hardware/libhardware"/>
     <project path="hardware/libhardware" name="boulzordev/android_hardware_libhardware" remote="github"/>
     <remove-project name="platform/external/e2fsprogs"/>
-    <project path="external/e2fsprogs" name="boulzordev/android_external_e2fsprogs" remote="github" revision="aosp-6.0"/>
+    <project path="external/e2fsprogs" name="boulzordev/android_external_e2fsprogs" remote="github"/>
     <remove-project name="platform/frameworks/native"/>
     <project path="frameworks/native" name="boulzordev/android_frameworks_native" remote="github"/>
     <remove-project name="platform/hardware/qcom/media"/>
@@ -36,7 +36,7 @@
     <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1"/>
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1"/>
     <remove-project name="platform/external/boringssl"/>
-    <project path="external/boringssl" name="boulzordev/android_external_boringssl" remote="github" revision="aosp-6.0"/>
+    <project path="external/boringssl" name="boulzordev/android_external_boringssl" remote="github"/>
     <remove-project name="platform/system/media"/>
     <project path="system/media" name="boulzordev/android_system_media" remote="github"/>
     <remove-project name="kernel/msm-3.10"/>
@@ -63,8 +63,12 @@
     <project path="external/apache-http" name="boulzordev/android_external_apache-http" remote="github"/>
     <remove-project name="platform/system/qcom"/>
     <project path="vendor/qcom/opensource/softap" name="boulzordev/android_qcom_opensource_softap" remote="github"/>
-    <remove-project name="platform/device/qcom/sepolicy"/>
+    <remove-project name="device/qcom/sepolicy"/>
     <project path="device/qcom/sepolicy" name="boulzordev/android_device_qcom_sepolicy" remote="github"/>
-    <remove-project name="platform/device/qcom/common"/>
+    <remove-project name="device/qcom/common"/>
     <project path="device/qcom/common" name="boulzordev/android_device_qcom_common" remote="github"/>
+    <remove-project name="platform/system/extras"/>
+    <project path="system/extras" name="boulzordev/android_system_extras" remote="github"/>
+    <remove-project name="platform/system/vold"/>
+    <project path="system/vold" name="boulzordev/android_system_vold" remote="github"/>
 </manifest>
