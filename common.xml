@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github"
-           fetch="https://github.com/"
-           revision="caf-6.0"
-	   />
+    <remote name="github"
+            fetch="https://github.com/"
+            revision="caf-6.0"
+    />
+    <remote name="cm"
+            fetch="https://github.com/"
+            revision="cm-13.0"
+    />
 
     <!-- Add new exfat support for fuse -->
-    <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
+    <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm"/>
     <!-- Add new fuse -->
-    <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>
+    <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm"/>
     <project path="external/gemmlowp" name="boulzordev/android_external_gemmlowp" remote="github" revision="aosp-6.0"/>
     <remove-project name="platform/external/selinux"/>
     <project path="external/selinux" name="boulzordev/android_external_selinux" remote="github" revision="caf-6.0"/>
@@ -26,15 +30,15 @@
     <remove-project name="platform/frameworks/native"/>
     <project path="frameworks/native" name="boulzordev/android_frameworks_native" remote="github"/>
     <remove-project name="platform/hardware/qcom/media"/>
-    <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-12.1"/>
+    <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm"/>
     <remove-project name="platform/hardware/qcom/display"/>
     <project path="hardware/qcom/display" name="boulzordev/android_hardware_qcom_display" remote="github" revision="aosp-6.0"/>
     <remove-project name="platform/hardware/qcom/audio"/>
-    <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-12.1"/>
+    <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm"/>
     <remove-project name="platform/frameworks/av"/>
     <project path="frameworks/av" name="boulzordev/android_frameworks_av" remote="github"/>
-    <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1"/>
-    <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1"/>
+    <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm"/>
+    <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="cm"/>
     <remove-project name="platform/external/boringssl"/>
     <project path="external/boringssl" name="boulzordev/android_external_boringssl" remote="github"/>
     <remove-project name="platform/system/media"/>
@@ -62,7 +66,7 @@
     <remove-project name="platform/external/apache-http"/>
     <project path="external/apache-http" name="boulzordev/android_external_apache-http" remote="github"/>
     <remove-project name="platform/system/qcom"/>
-    <project path="vendor/qcom/opensource/softap" name="boulzordev/android_qcom_opensource_softap" remote="github"/>
+    <project path="vendor/qcom/opensource/softap" name="boulzordev/android_vendor_qcom_opensource_softap" remote="github"/>
     <remove-project name="device/qcom/sepolicy"/>
     <project path="device/qcom/sepolicy" name="boulzordev/android_device_qcom_sepolicy" remote="github"/>
     <remove-project name="device/qcom/common"/>
