@@ -75,4 +75,6 @@
     <project path="system/extras" name="boulzordev/android_system_extras" remote="github"/>
     <remove-project name="platform/system/vold"/>
     <project path="system/vold" name="boulzordev/android_system_vold" remote="github"/>
+    <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="cm"/>
+    <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm"/>
 </manifest>
