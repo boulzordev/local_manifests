@@ -79,4 +79,5 @@
     <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm"/>
     <remove-project name="platform/external/libavc"/>
     <project path="external/libavc" name="boulzordev/android_external_libavc" remote="cm"/>
+    <project path="external/libstlport" name="CyanogenMod/android_external_stlport" remote="cm"/>
 </manifest>
