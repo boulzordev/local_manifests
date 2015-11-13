@@ -1,6 +1,6 @@
 <manifest>
 
   <!-- Motorola MSM8916 -->
-  <project name="Motorola-CyanogenMod/android_device_motorola_surnia" path="device/motorola/surnia" remote="github" revision="aosp-5.1"/>
-  <project name="Motorola-CyanogenMod/android_vendor_motorola_surnia" path="vendor/motorola/surnia" remote="github" revision="cm-12.1"/>
+  <project name="Motorola-CyanogenMod/android_device_motorola_surnia" path="device/motorola/surnia" remote="github"/>
+  <project name="Motorola-CyanogenMod/android_vendor_motorola_surnia" path="vendor/motorola/surnia" remote="github"/>
 </manifest>
