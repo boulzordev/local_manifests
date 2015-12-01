@@ -82,4 +82,11 @@
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm"/>
     <remove-project name="platform/packages/services/Telephony"/>
     <project path="packages/services/Telephony" name="boulzordev/android_packages_services_Telephony" remote="github"/>
+    <remove-project name="platform/frameworks/opt/net/wifi"/>
+    <project path="frameworks/opt/net/wifi" name="boulzordev/android_frameworks_opt_net_wifi" remote="github"/>
+    <remove-project name="platform/frameworks/opt/telephony"/>
+    <project path="frameworks/opt/telephony" name="boulzordev/android_frameworks_opt_telephony" remote="github"/>
+    <remove-project name="platform/packages/apps/Settings"/>
+    <project path="packages/apps/Settings" name="boulzordev/android_packages_apps_Settings" remote="github"/>
+    <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm"/>
 </manifest>
