@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Add new exfat support for fuse -->
-    <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.1" />
-    <!-- Add new fuse -->
-    <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.1"/>
 </manifest>
 
