@@ -1,5 +1,4 @@
 <manifest>
   <!-- Motorola osprey -->
   <project name="boulzordev/android_device_motorola_osprey" path="device/motorola/osprey" remote="github"/>
-  <project name="boulzordev/android_vendor_motorola_osprey" path="vendor/motorola/osprey" remote="github" />
 </manifest>
