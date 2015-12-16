@@ -89,4 +89,6 @@
     <remove-project name="platform/packages/apps/Settings"/>
     <project path="packages/apps/Settings" name="boulzordev/android_packages_apps_Settings" remote="github"/>
     <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm"/>
+    <remove-project name="platform/packages/providers/MediaProvider"/>
+    <project path="packages/providers/MediaProvider" name="boulzordev/android_packages_providers_MediaProvider" remote="github"/>
 </manifest>
