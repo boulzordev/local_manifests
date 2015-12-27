@@ -91,4 +91,5 @@
     <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm"/>
     <remove-project name="platform/packages/providers/MediaProvider"/>
     <project path="packages/providers/MediaProvider" name="boulzordev/android_packages_providers_MediaProvider" remote="github"/>
-</manifest>
+    <remove-project name="platform/bionic"/>
+    <project path="bionic" name="CyanogenMod/android_bionic" remote="cm"/>
