@@ -1,9 +1,9 @@
 <manifest>
 <!-- Generic MSM8916-->
   <project name="moto8916/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="cm"/>
-  <project name="boulzordev/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="github" revision="aosp-6.0-msm8916" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
-  <project name="boulzordev/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="github" revision="aosp-6.0-msm8916" />
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" remote="cm" revision="cm-13.0-caf-8916" />
   <project name="CyanogenMod/android_external_bson" path="external/bson" remote="github" revision="cm-13.0" />
   <project name="boulzordev/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github"/>
   <project name="moto8916/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0_msm8916"/>
