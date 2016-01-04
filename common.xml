@@ -40,7 +40,8 @@
     <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm"/>
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="cm"/>
     <remove-project name="platform/external/boringssl"/>
-    <project path="external/boringssl" name="boulzordev/android_external_boringssl" remote="github"/>
+    <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" remote="cm"/>
+    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="cm"/>
     <remove-project name="platform/system/media"/>
     <project path="system/media" name="boulzordev/android_system_media" remote="github"/>
     <remove-project name="kernel/msm-3.10"/>
