@@ -94,5 +94,6 @@
 
     <remove-project name="platform/bionic"/>
     <project path="bionic" name="CyanogenMod/android_bionic" remote="cm"/>
-
+    
+    <project path="vendor/boulzordev" name="boulzordev/android_vendor_boulzordev" remote="github"/>
 </manifest>
