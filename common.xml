@@ -36,7 +36,7 @@
     <remove-project name="platform/hardware/qcom/audio"/>
     <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm"/>
     <remove-project name="platform/frameworks/av"/>
-    <project path="frameworks/av" name="boulzordev/android_frameworks_av" remote="github"/>
+    <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm"/>
     <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm"/>
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="cm"/>
     <remove-project name="platform/external/boringssl"/>
