@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/motorola/surnia" name="Motorola-CyanogenMod/android_device_motorola_surnia" remote="github" revision="cm-13.0" />
-    <project path="kernel/motorola/msm8916" name="CyanogenMod/android_kernel_motorola_msm8916" remote="github" revision="cm-13.0" />
-    <project path="vendor/motorola/surnia" name="Motorola-CyanogenMod/android_vendor_motorola_surnia" remote="github" revision="caf-6.0" />
+    <project path="device/motorola/surnia" name="moto8916/android_device_motorola_surnia" remote="github" revision="cm-13.0" />
+    <project path="kernel/motorola/msm8916" name="moto8916/android_kernel_motorola_msm8916" remote="github" revision="cm-13.0" />
+    <project path="vendor/motorola" name="moto8916/proprietary_vendor_motorola" remote="github" revision="cm-13.0_msm8916" />
+    <project path="device/motorola/msm8916-common" name="moto8916/android_device_motorola_msm8916-common" revision="cm-13.0"/>
+    <project path="device/motorola/osprey" name="moto8916/android_device_motorola_osprey" remote="github" revision="cm-13.0"/>
 </manifest>
 
