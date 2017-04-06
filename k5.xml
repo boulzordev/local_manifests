@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <project path="device/lenovo/A6020" name="boulzordev/android_device_lenovo_A6020" remote="github" revision="cm-14.1" />
-    <project path="kernel/lenovo/msm8916" name="boulzordev/android_kernel_lenovo_msm8916" remote="github" revision="cm-14.1" />
-    <project path="vendor/lenovo/A6020" name="boulzordev/android_vendor_lenovo_A6020" remote="github" revision="cm-14.1" />
-</manifest>
-

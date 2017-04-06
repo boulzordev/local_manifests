@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_kernel_motorola_msm8952" path="kernel/motorola/msm8952" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_motorola_athene" path="device/motorola/athene" remote="github" revision="cm-14.1" />
-</manifest>
