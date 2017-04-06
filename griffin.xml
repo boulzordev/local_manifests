@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
+
   <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
+
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="cm-14.1" remote="github" />
-  <project name="boulzordev/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="cm-14.1-mods" />
+
+  <project name="boulzordev/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="aospa-n" />
+
   <project name="boulzordev/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="cm-14.1" />
+
   <project name="boulzordev/proprietary_vendor_motorola_griffin" path="vendor/motorola/griffin" remote="github" revision="cm-14.1-mods" />
+
+  <project name="AOSPA/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="nougat-mr1-8996" />
+
+  <project name="AOSPA/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="nougat-mr1-8996" />
+
+  <project name="AOSPA/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="nougat-mr1-8996" />
+
+ <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="cm-14.1" />
+
 </manifest>
 
