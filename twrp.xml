@@ -8,7 +8,8 @@
            review="gerrit.twrp.me"
            fetch="https://github.com/TeamWin" />
 
-  <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs"/>
+<!--  <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />-->
+<!--  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs"/>
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.1" />
+-->
 </manifest>
