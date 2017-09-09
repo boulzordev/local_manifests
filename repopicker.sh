@@ -21,3 +21,12 @@ repopick 188279 188280
 
 #packages/apps/FMRadio
 repopick 186688
+
+#hardware/qcom/audio-caf/msm8916
+repopick 188681
+
+#hardware/qcom/display-caf/msm8916
+repopick 188685 188682
+
+#hardware/qcom/media-caf/msm8916
+repopick 188686
