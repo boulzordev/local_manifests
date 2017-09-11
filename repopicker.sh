@@ -81,3 +81,6 @@ repopick 187634 187635 187636 187637
 
 #qcom/opensource/cryptfs_hw
 repopick 187837 187838 187839 187840
+
+#bootable/recovery
+repopick 186286
