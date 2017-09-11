@@ -19,16 +19,14 @@ repopick 188278 185870 188401 185491;
 repopick 186243 186244 186245 186246;
 
 # charger/healthd
-repopick 185642 185654 185672 185653 185656 
-repopick 185657 185658 185659 185888
+repopick 185642 185653 185654 185656 185657 185658 185659 185672 185888 186304 186881 187146 188765
 
 # hardware/qcom/gps
 repopick 186455 186900 186901;
 
 # Toybox
-repopick 186302;
-# build
-repopick 186740;
+repopick 186302 187155
+
 # releasetool
 repopick 186687;
 
@@ -37,7 +35,7 @@ repopick 186687;
 repopick 185636 185640;
 
 #build/soong
-repopick 188279 188280
+repopick 186740 188279 188280
 
 #packages/apps/FMRadio
 repopick 186688
@@ -53,3 +51,30 @@ repopick 188686
 
 # vendor/lineage healthd - Might conflict
 repopick 187951;
+
+#system/vold
+repopick 187724 187725 187726 187727 187728 187729 187730 187731 187732 187733 187734 187735
+
+#packages/services/Telephony
+repopick 187147
+
+#packages/services/Telecomm
+repopick 188873
+
+#hardware/libhardware
+repopick 187643 187644
+
+#hardware/interfaces (fingerprint)
+repopick 188007
+
+#frameworks/native
+repopick 185671 187152
+
+#frameworks/base
+repopick 187131 187154 187846 187847
+
+#frameworks/av
+repopick 187558 187559 187560 187561 186580 186581
+
+#system/qcom
+repopick 187634 187635 187636 187637
