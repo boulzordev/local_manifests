@@ -1,1 +1,1 @@
-Those manifests are to be used with LineageOS manifest branch cm-14.1
+Those manifests are to be used with LineageOS manifest branch lineage-15.0
