@@ -2,6 +2,6 @@
 <manifest>
     <project path="device/lenovo/A6020" name="boulzordev/android_device_lenovo_A6020" remote="github" revision="lineage-15.0" />
     <project path="kernel/lenovo/msm8916" name="boulzordev/android_kernel_lenovo_msm8916" remote="github" revision="lineage-15.0" />
-    <project path="vendor/lenovo" name="TheMuppets/proprietary_vendor_lenovo" remote="github" revision="cm-14.1" />
+    <project path="vendor/lenovo" name="boulzordev/proprietary_vendor_lenovo" remote="github" revision="lineage-15.0" />
 </manifest>
 
