@@ -50,7 +50,7 @@ repopick 188685 188682
 repopick 188686
 
 # vendor/lineage healthd - Might conflict
-repopick 187951;
+#repopick 187951;
 
 #system/vold
 repopick 187724 187725 187726 187727 187728 187729 187730 187731 187732 187733 187734 187735
@@ -58,8 +58,6 @@ repopick 187724 187725 187726 187727 187728 187729 187730 187731 187732 187733 1
 #packages/services/Telephony
 repopick 187147
 
-#packages/services/Telecomm
-repopick 188873
 
 #hardware/libhardware
 repopick 187643 187644
@@ -84,3 +82,11 @@ repopick 187837 187838 187839 187840
 
 #bootable/recovery
 repopick 186286
+
+#MultiSim
+
+#frameworks/opt/telephony
+repopick 188687
+#packages/services/Telecomm
+repopick 188873
+
