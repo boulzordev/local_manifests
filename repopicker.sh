@@ -90,3 +90,6 @@ repopick 188687
 #packages/services/Telecomm
 repopick 188873
 
+#ntfs-3g
+repopick 190035
+
