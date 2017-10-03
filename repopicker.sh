@@ -41,7 +41,7 @@ repopick 186740 188279 188280
 repopick 186688
 
 #hardware/qcom/audio-caf/msm8916
-repopick 188681
+repopick 188681 188883 189434 189435 189436 189437 
 
 #hardware/qcom/display-caf/msm8916
 repopick 188685 188682
