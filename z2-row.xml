@@ -3,6 +3,6 @@
     <project path="device/zuk/z2_row" name="boulzordev/android_device_zuk_z2-row" remote="github" revision="lineage-15.0" />
     <project path="kernel/zuk/msm8996" name="boulzordev/android_kernel_zuk_msm8996" remote="github" revision="lineage-15.0" />
     <project path="vendor/zuk/z2_row" name="boulzordev/proprietary_vendor_zuk_z2-row" remote="github" revision="lineage-15.0" />
-    <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" remote="aosp"/>
+<!--    <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" remote="aosp"/> -->
 </manifest>
 
